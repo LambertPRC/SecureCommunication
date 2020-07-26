@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Alice</Name>
+    <Description>&lt;没有可用的说明&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Alice</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Alice.vcxproj" File="Alice.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">Alice.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="AES.cpp">AES.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="EncryptDecrypt.cpp">EncryptDecrypt.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Server.cpp">Server.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="AES.h">AES.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="EncryptDecrypt.h">EncryptDecrypt.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="packages.config">packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
